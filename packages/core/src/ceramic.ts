@@ -205,7 +205,6 @@ export class Ceramic implements CeramicApi {
     this._networkOptions = params.networkOptions
     this._loadOptsOverride = params.loadOptsOverride
     this._indexing = modules.indexing
-    this.index = new LocalIndexApi(modules.indexing)
 
     this.context = {
       api: this,
@@ -236,6 +235,7 @@ export class Ceramic implements CeramicApi {
       anchorService: modules.anchorService,
       conflictResolution: conflictResolution,
     })
+    this.index = new LocalIndexApi(modules.indexing, this.repository, this._logger)
   }
 
   /**
