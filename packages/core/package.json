@@ -58,7 +58,7 @@
     "level-ts": "^2.1.0",
     "lodash.clonedeep": "^4.5.0",
     "lru_map": "^0.4.1",
-    "multiformats": "^9.5.8",
+    "multiformats": "^10.0.0",
     "p-queue": "^7.1.0",
     "rxjs": "^7.5.2",
     "sqlite3": "^5.0.8",

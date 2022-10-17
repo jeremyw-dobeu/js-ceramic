@@ -49,7 +49,7 @@
     "did-resolver": "^3.1.5",
     "dids": "^3.0.0",
     "key-did-resolver": "^2.0.2",
-    "multiformats": "^9.5.8"
+    "multiformats": "^10.0.0"
   },
   "gitHead": "4f42c6ac204ad25e66efda4e24aed12c339b3c98"
 }
